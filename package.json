@@ -1,0 +1,31 @@
+{
+  "name": "TwoPlayersChess",
+  "version": "1.0.0",
+  "description": "A two players chess game built with Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isamade/TwoPlayersChess.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Isamade/TwoPlayersChess/issues"
+  },
+  "homepage": "https://github.com/Isamade/TwoPlayersChess#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "ioredis": "^4.19.4",
+    "redis": "^3.0.2",
+    "socket.io": "^3.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

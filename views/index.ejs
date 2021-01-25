@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Game of Chess</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+<body>
+    <h1>GAME OF CHESS</h1>
+
+    <span class="switch-white">
+        <button class="QW white swap-btn">Q</button>
+        <button class="NW white swap-btn">Kn</button>
+        <button class="RW white swap-btn">R</button>
+        <button class="BW white swap-btn">B</button>
+    </span>
+    <span class="switch-black">
+        <button class="QB black swap-btn">Q</button>
+        <button class="NB black swap-btn">Kn</button>
+        <button class="RB black swap-btn">R</button>
+        <button class="BB black swap-btn">B</button>
+    </span>
+    <span>
+        <button class="new-game">New Game</button>
+        <button class="join-game">Join Game</button>
+    </span>
+    <table id="grid"></table>
+    <footer></footer>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script type='module' src="js/index.js"></script>
+</body>
+</html>
